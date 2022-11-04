@@ -12,8 +12,6 @@ namespace Arv
         public string Gender;
         public int Weight;
 
-
-
         public Djur():this("Kebab", 99,99,"Female",99)
         {
             
@@ -21,7 +19,6 @@ namespace Arv
 
         public Djur(string eat, int sleep, int run, string gender, int weight)
         {
-
             Eat = eat;
             Sleep = sleep;
             Run = run;
@@ -30,40 +27,25 @@ namespace Arv
         }
 
         
-
         public void Eating()
         {
             Console.WriteLine("This animal likes to eat: " + Eat);
-
         }
 
         public void Running()
         {
-
             Console.WriteLine("This animal speed is {0} mph", Run);
         }
 
         public void aGender()
         {
-
             Console.WriteLine("This animal gender is: " + Gender);
         }
 
         public virtual void makeSound()
         {
-
             Console.WriteLine("Animal Sound");
         }
-
-        public virtual void AnimalInfo()
-        {
-
-            Console.WriteLine("The animal likes");
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-            Console.WriteLine();
-        }
+        
     }
 }
