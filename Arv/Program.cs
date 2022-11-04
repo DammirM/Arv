@@ -6,37 +6,31 @@ namespace Arv
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Elephant:");
-            Elephant E = new Elephant();
-            E.makeSound();
+            Console.Write("Elephant: ");
+            Elephant elefant = new Elephant();
+            elefant.makeSound();
 
-            Console.WriteLine("\nSnake:");
-            Snake S = new Snake();
-            S.makeSound();
+            Console.Write("\nSnake: ");
+            Snake orm = new Snake();
+            orm.makeSound();
 
-            Console.WriteLine("\nTiger:");
-            Tiger T = new Tiger();
-            T.makeSound();
+            Console.Write("\nTiger: ");
+            Tiger tiger = new Tiger();
+            tiger.makeSound();
 
-            Console.WriteLine("\nBabyTiger:");
-            BabyTiger B = new BabyTiger();
-            B.makeSound();
+            Console.Write("\nBabyTiger: ");
+            BabyTiger baby = new BabyTiger();
+            baby.makeSound();
 
-            Console.WriteLine("\nLionBaby:");
-            LionBaby L = new LionBaby();
-            L.makeSound();
-
-
+            Console.Write("\nLionBaby: ");
+            LionBaby lejon = new LionBaby();
+            lejon.makeSound();
 
 
 
 
 
-
-
-
-
-
+            Console.ReadKey();
         }
     }
 }

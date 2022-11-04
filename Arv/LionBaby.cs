@@ -11,12 +11,10 @@ namespace Arv
         public LionBaby() : this("Long hair")
         {
 
-
         }
 
         public LionBaby(string hair)
         {
-
             Hair = hair;
         }
 
@@ -34,18 +32,15 @@ namespace Arv
 
         public void aHair()
         {
-
             Console.WriteLine("Lionbaby has {0} ", Hair);
         }
         public override void Jumping()
         {
             Console.WriteLine("The lionbaby can jump up to the " + Jump);
-
         }
 
         public override void makeSound()
         {
-
             Console.WriteLine("Lion rrrooooooaaaarrrrrrr");
         }
     }

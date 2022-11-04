@@ -12,12 +12,10 @@ namespace Arv
         public Snake() : this("Poison")
         {
 
-
         }
         public Snake(string poison)
         {
             Poison = poison;
-
         }
         public Snake(string poison, string eat, int sleep, int run, string gender, int weight)
         {
@@ -32,12 +30,10 @@ namespace Arv
 
         public void Pois()
         {
-
             Console.WriteLine("A snakes bite can be " + Poison);
         }
         public override void makeSound()
         {
-
             Console.WriteLine("Tsssssssssssssss");
         }
     }

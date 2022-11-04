@@ -11,12 +11,10 @@ namespace Arv
         public BabyTiger():this("slow")
         {
 
-
         }
 
         public BabyTiger(string walk)
         {
-
             Walk = walk;
         }
 
@@ -33,19 +31,16 @@ namespace Arv
 
         public void Walking()
         {
-
             Console.WriteLine("BabyTiger likes to walk " + Walk);
         }
 
         public override void Jumping()
         {
             Console.WriteLine("The tigerbaby can jump up to the " + Jump);
-
         }
 
         public override void makeSound()
         {
-
             Console.WriteLine("Mjau rrrooooooaaaarrrrrrr");
         }
     }

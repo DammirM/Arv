@@ -11,12 +11,10 @@ namespace Arv
 
         public Tiger():this("Sky")
         {
-           
 
         }
         public Tiger(string jump)
         {
-
             Jump = jump;
         }
         public Tiger(string jump, string eat, int sleep, int run, string gender, int weight)
@@ -33,13 +31,11 @@ namespace Arv
         public virtual void Jumping()
         {
             Console.WriteLine("The tiger can jump up to the " + Jump);
-
         }
 
 
         public override void makeSound()
         {
-
             Console.WriteLine("Roooooooaarrrrrrr");
         }
 
