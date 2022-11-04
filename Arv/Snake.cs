@@ -6,6 +6,7 @@ namespace Arv
 {
     class Snake : Djur
     {
+        // Same as Elephant
 
         public string Poison;
 

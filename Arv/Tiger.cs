@@ -6,6 +6,7 @@ namespace Arv
 {
     class Tiger : Djur
     {
+        // Same as Elephant
 
         public string Jump;
 
@@ -27,7 +28,7 @@ namespace Arv
             Weight = weight;
         }
 
-
+        // Share the method with the classes that will inherit.
         public virtual void Jumping()
         {
             Console.WriteLine("The tiger can jump up to the " + Jump);

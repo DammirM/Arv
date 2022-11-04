@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Arv
 {
-    class BabyTiger : Tiger
+    class BabyTiger : Tiger // BabyTiger inherit everything from Tiger class and Djur class because thats what Tiger inherited.
     {
         public string Walk;
 
@@ -34,6 +34,7 @@ namespace Arv
             Console.WriteLine("BabyTiger likes to walk " + Walk);
         }
 
+        // Override both Djur method and Tiger method.
         public override void Jumping()
         {
             Console.WriteLine("The tigerbaby can jump up to the " + Jump);

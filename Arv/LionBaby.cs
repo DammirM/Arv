@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Arv
 {
-    class LionBaby : Tiger
+    class LionBaby : Tiger // Same as BabyTiger
     {
         public string Hair;
 
